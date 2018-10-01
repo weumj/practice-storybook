@@ -1,0 +1,27 @@
+{
+  "name": "ts-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 8081 -c .storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weumj/practice-storybook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weumj/practice-storybook/issues"
+  },
+  "homepage": "https://github.com/weumj/practice-storybook#readme",
+  "devDependencies": {
+    "@storybook/react": "^3.4.11",
+    "babel-core": "^6.26.3"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}

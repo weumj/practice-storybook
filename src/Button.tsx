@@ -2,12 +2,23 @@ import React from "react";
 import "./Button.css";
 
 interface OwnProps {
+  /** this dictates what the button will say  */
   children: React.ReactNode;
+  /** this dictates what the button will do  */
   onClick: () => void;
+  /**
+   * Disables onclick
+   *
+   * @default false
+   **/
   disabled?: boolean;
 }
 
-export type Props = OwnProps;
+interface StateProps {}
+
+interface DispatchProps {}
+
+export type Props = OwnProps & StateProps & DispatchProps;
 
 const noop = () => {};
 

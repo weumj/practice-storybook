@@ -18,6 +18,7 @@
   "homepage": "https://github.com/weumj/practice-storybook#readme",
   "devDependencies": {
     "@storybook/addon-info": "^3.4.11",
+    "@storybook/addon-knobs": "^3.4.11",
     "@storybook/addons": "^3.4.11",
     "@storybook/react": "^3.4.11",
     "@types/storybook__react": "^3.0.9",
